@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+    .info {
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1; /* Posiciona o .info acima do .container */
+    }
+    .container {
+        position: relative;
+        margin: 0;
+    }
+}
+
+body {
+    background-image: url('./src/images/bg-intro-desktop.png');
+    background-color: #007A78; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input {
+    margin: 10px; /* Espaço de 10px em todas as direções */
+}
+
+.info{
+    font-size: larger;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    box-shadow:  0px 0px 30px -10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+     text-decoration: none;
+}
+.container p {
+    font-size: 15px;
+}
+
+
+#btnAuth0{
+    cursor: pointer;    
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    color: white;
+    background-color: #007A78;
+    border-radius: 30px;
+    height: 36px;
+    width: 75%;
+    transition: 0.2s;
+    outline: none;
+}
+
+#btnAuth0:active{
+    opacity: 0.5;
+}

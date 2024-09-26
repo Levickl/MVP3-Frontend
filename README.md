@@ -4,13 +4,13 @@ Este projeto é um MVP (Minimum Viable Product) da Disciplina Desenvolvimento Fu
 
 ## Introdução
 
-Esse front-end está utilizando a [API](https://github.com/Levickl/1_MVP_Back-end) desenvolvida no projeto e também a API do Auth0 para gerenciamento de usuários. Existem dois tipos de usuários: admin e normal. O usuário admin tem permissão para editar, criar, deletar e ver usuários, enquanto o usuário normal pode apenas visualizar os dados.
+Esse front-end está utilizando a [API](https://github.com/Levickl/MVP-3-BackEnd) desenvolvida no projeto e também a API do Auth0 para gerenciamento de usuários. Existem dois tipos de usuários: admin e normal. O usuário admin tem permissão para editar, criar, deletar e ver usuários, enquanto o usuário normal pode apenas visualizar os dados.
 
 Vale ressaltar que o CSS foi desenvolvido de forma pura, sem o uso de frameworks.
 
 ## Utilização da API
 
-Este front-end consome a API desenvolvida para gerenciar operações de CRUD (Create, Read, Update, Delete). Para que o front-end funcione corretamente, é necessário ter a API em execução. O repositório da API pode ser encontrado [aqui](https://github.com/Levickl/1_MVP_Back-end).
+Este front-end consome a API desenvolvida para gerenciar operações de CRUD (Create, Read, Update, Delete). Para que o front-end funcione corretamente, é necessário ter a API em execução. O repositório da API pode ser encontrado [aqui](https://github.com/Levickl/MVP-3-BackEnd).
 
 A API do Auth0 esta todo configurado corretamente dentro do codigo com a key para fazer o controle dos usuarios.
 
